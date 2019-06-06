@@ -1,0 +1,20 @@
+{
+  "name": "merlion",
+  "version": "1.0.0",
+  "description": "学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/merlion.git"
+  },
+  "keywords": [],
+  "author": "merlion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/merlion/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/merlion#readme"
+}
