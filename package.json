@@ -1,7 +1,7 @@
 {
   "name": "merlion",
   "version": "1.0.1",
-  "description": "学习",
+  "description": "js算法集合",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
