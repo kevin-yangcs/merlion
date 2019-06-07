@@ -2,9 +2,10 @@
   "name": "merlion",
   "version": "1.0.1",
   "description": "学习",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "mocha 'test/*/*.@(js|jsx)'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/SKY-JING/merlion/issues"
   },
-  "homepage": "https://github.com/SKY-JING/merlion#readme"
+  "homepage": "https://github.com/SKY-JING/merlion#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.5",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
+  }
 }
