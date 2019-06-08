@@ -19,7 +19,17 @@
 
 &emsp;&emsp;若文件的初始状态是正序的，一趟扫描即可完成排序。所需的关键字比较次数`C`和记录移动次数`M`均达到最小值：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble1.png?raw=true), ![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble2.png?raw=true)
 
-&emsp;&emsp;所以，冒泡排序最好的时间复杂度为
+&emsp;&emsp;所以，冒泡排序最好的时间复杂度为![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble3.png?raw=true)
+
+&emsp;&emsp;若初始文件是反序的，需要进行`n - 1`趟排序。每趟排序要进行`n - i`次关键字的比较(1≤i≤n-1)，且每次比较都必须移动记录三次来达到交换记录位置。在这种情况下，比较和移动次数均达到最大值：
+
+![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble4.png?raw=true)
+
+![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble5.png?raw=true)
+
+&emsp;&emsp;冒泡排序的最坏时间复杂度为：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble6.png?raw=true)
+
+综上，因此冒泡排序总的平均时间复杂度为：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble6.png?raw=true)
 
 算法稳定性：
 
