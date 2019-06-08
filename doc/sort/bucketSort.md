@@ -14,7 +14,7 @@
 
 算法稳定性：
 
-&emsp;&emsp;桶排序稳定性依赖对每个桶执行的排序算法。
+&emsp;&emsp;桶排序是一种稳定的排序算法。
 
 #### 3、图片演示：
 ![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bucket/bucket.png?raw=true)

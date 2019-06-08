@@ -5,28 +5,28 @@
 
 #### 1、算法列表
 1）稳定的
-* 冒泡排序（bubble sort） — O(n^2）
+* [冒泡排序](./bubbleSort.md)（bubble sort） — O(n^2）
 * 鸡尾酒排序(Cocktail sort，双向的冒泡排序) — O(n^2）
-* 插入排序（insertion sort）— O(n^2)
-* 桶排序（bucket sort）— O(n); 需要 O(k) 额外空间
-* 计数排序(counting sort) — O(n+k); 需要 O(n+k) 额外空间
-* 合并排序（merge sort）— O(nlog n); 需要 O(n) 额外空间
+* [插入排序](./insertionSort.md)（insertion sort）— O(n^2)
+* [桶排序](./bucketSort.md)（bucket sort）— O(n); 需要 O(c) 额外空间
+* [计数排序](./countingSort.md)(counting sort) — O(n+k); 需要 O(n+k) 额外空间
+* [归并排序](./mergeSort.md)（merge sort）— O(nlogn); 需要 O(n) 额外空间
 * 原地合并排序— O(n^2)
-* 二叉排序树排序 （Binary tree sort） — O(nlog n)期望时间； O(n^2)最坏时间； 需要 O(n) 额外空间
+* 二叉排序树排序 （Binary tree sort） — O(nlogn)期望时间； O(n^2)最坏时间； 需要 O(n) 额外空间
 * 鸽巢排序(Pigeonhole sort) — O(n+k); 需要 O(k) 额外空间
-* 基数排序（radix sort）— O(n·k); 需要 O(n) 额外空间
+* [基数排序](./radixSort.md)（radix sort）— O(n·k); 需要 O(n) 额外空间
 * Gnome 排序— O(n^2)
 * 图书馆排序— O(nlog n) with high probability，需要 （1+ε)n额外空间
 
 2）不稳定的
-* 选择排序（selection sort）— O(n^2)
-* 希尔排序（shell sort）— O(nlog n) 如果使用最佳的现在版本
-* 组合排序— O(nlog n)
-* 堆排序（heapsort）— O(nlog n)
+* [选择排序](./selectionSort.md)（selection sort）— O(n^2)
+* [希尔排序](./shellSort.md)（shell sort）— O(nlogn) 如果使用最佳的现在版本
+* 组合排序— O(nlogn)
+* [堆排序](./heapSort.md)（heapsort）— O(nlogn)
 * 平滑排序— O(nlog n)
-* 快速排序（quicksort）— O(nlog n) 期望时间，O(n^2) 最坏情况； 对于大的、乱数列表一般相信是最快的已知排序
-Introsort— O(nlog n)
-* 耐心排序— O(nlog n+ k) 最坏情况时间，需要 额外的 O(n+ k) 空间，也需要找到最长的递增子串行（longest increasing subsequence）
+* [快速排序](./quickSort.md)（quicksort）— O(nlogn) 期望时间，O(n^2) 最坏情况； 对于大的、乱数列表一般相信是最快的已知排序
+Introsort— O(nlogn)
+* 耐心排序— O(nlog n + k) 最坏情况时间，需要 额外的 O(n + k) 空间，也需要找到最长的递增子串行（longest increasing subsequence）
 
 3）不实用的
 * Bogo排序— O(n× n!) 期望时间，无穷的最坏情况。
