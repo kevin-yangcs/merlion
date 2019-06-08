@@ -2,10 +2,11 @@
 此库用于个人学习算法
 ### 使用:
 ```
+// 下载依赖
 npm install -D merlion
-
+// 引入依赖
 let fnc = require('merlion');
-
+// 执行方法
 fnc.bubbleSort([4, 2, 1, 0.5, -3, 13]);
 ```
 
