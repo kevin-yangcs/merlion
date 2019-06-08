@@ -3,7 +3,7 @@ let ts = require('gulp-typescript'); // ts文件解析插件
 let tsp = ts.createProject('tsconfig.json'); // ts解析插件装载配置文件
 let uglify = require('gulp-uglify'); // 压缩混淆工具
 let babel = require('gulp-babel'); // 语法转化工具
-let gutil = require('gulp-util'); // 工具类
+let gutil = require('gulp-util'); // gulp工具类
 
 // 目录常量
 const PATHS = {

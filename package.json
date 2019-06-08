@@ -29,5 +29,6 @@
     "gulp-util": "^3.0.8",
     "mocha": "^6.1.4",
     "typescript": "^3.5.1"
-  }
+  },
+  "dependencies": {}
 }
