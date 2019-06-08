@@ -13,7 +13,7 @@ fnc.bubbleSort([4, 2, 1, 0.5, -3, 13]);
 ```
 
 ### 现支持算法：
-|-- 排序<br>
+|-- [排序](./doc/sort/sort.md)<br>
 |---- [冒泡排序](./doc/sort/bubbleSort.md)（bubbleSort）<br>
 |---- [选择排序](./doc/sort/selectionSort.md)（selectionSort）<br>
 |---- [插入排序](./doc/sort/insertionSort.md)（insertionSort）<br>
