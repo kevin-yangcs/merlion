@@ -12,7 +12,7 @@ let fnc = require('merlion');
 fnc.bubbleSort([4, 2, 1, 0.5, -3, 13]);
 ```
 
-### 现支持算法
+### 现支持算法：
 |-- 排序<br>
 |---- 冒泡排序（bubbleSort）<br>
 |---- 选择排序（selectionSort）<br>
