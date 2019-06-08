@@ -1,17 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// 冒泡排序
-function bubbleSort(arr) {
-    let len = arr.length;
-    for (let i = 0; i < len - 1; i++) {
-        for (let j = 0; j < len - 1 - i; j++) {
-            if (arr[j] > arr[j + 1]) {
-                let tmp = arr[j + 1];
-                arr[j + 1] = arr[j];
-                arr[j] = tmp;
-            }
-        }
-    }
-    return arr;
-}
-exports.bubbleSort = bubbleSort;
+"use strict";function bubbleSort(e){for(var r=e.length,t=0;t<r-1;t++)for(var b=0;b<r-1-t;b++)if(e[b]>e[b+1]){var o=e[b+1];e[b+1]=e[b],e[b]=o}return e}Object.defineProperty(exports,"__esModule",{value:!0}),exports.bubbleSort=bubbleSort;

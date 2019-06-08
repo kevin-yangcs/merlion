@@ -4,7 +4,7 @@
   "description": "js算法集合",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "gulp build",
     "test": "mocha 'test/*/*.@(js|jsx)'"
   },
   "repository": {
@@ -19,7 +19,14 @@
   },
   "homepage": "https://github.com/SKY-JING/merlion#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@types/node": "^12.0.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
     "mocha": "^6.1.4",
     "typescript": "^3.5.1"
   }

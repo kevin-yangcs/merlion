@@ -1,18 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// 插入排序
-function insertionSort(arr) {
-    let len = arr.length;
-    let preIndex, current;
-    for (let i = 1; i < len; i++) {
-        preIndex = i - 1;
-        current = arr[i];
-        while (preIndex >= 0 && arr[preIndex] > current) {
-            arr[preIndex + 1] = arr[preIndex];
-            preIndex--;
-        }
-        arr[preIndex + 1] = current;
-    }
-    return arr;
-}
-exports.insertionSort = insertionSort;
+"use strict";function insertionSort(r){for(var e,t,o=r.length,n=1;n<o;n++){for(e=n-1,t=r[n];0<=e&&r[e]>t;)r[e+1]=r[e],e--;r[e+1]=t}return r}Object.defineProperty(exports,"__esModule",{value:!0}),exports.insertionSort=insertionSort;
