@@ -36,4 +36,4 @@
 &emsp;&emsp;冒泡排序就是把小的元素往前调或者把大的元素往后调。比较是相邻的两个元素比较，交换也发生在这两个元素之间。所以，如果两个元素相等，是不会再交换的；如果两个相等的元素没有相邻，那么即使通过前面的两两交换把两个相邻起来，这时候也不会交换，所以相同元素的前后顺序并没有改变，所以冒泡排序是一种稳定排序算法。
 
 #### 3、动图演示：
-![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble7.png?raw=true)
+![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble7.gif?raw=true)
