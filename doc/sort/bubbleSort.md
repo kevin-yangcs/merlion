@@ -23,14 +23,17 @@
 
 &emsp;&emsp;若初始文件是反序的，需要进行`n - 1`趟排序。每趟排序要进行`n - i`次关键字的比较(1≤i≤n-1)，且每次比较都必须移动记录三次来达到交换记录位置。在这种情况下，比较和移动次数均达到最大值：
 
-![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble4.png?raw=true)
+&emsp;&emsp;![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble4.png?raw=true)
 
-![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble5.png?raw=true)
+&emsp;&emsp;![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble5.png?raw=true)
 
 &emsp;&emsp;冒泡排序的最坏时间复杂度为：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble6.png?raw=true)
 
-综上，因此冒泡排序总的平均时间复杂度为：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble6.png?raw=true)
+&emsp;&emsp;综上，因此冒泡排序总的平均时间复杂度为：![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble6.png?raw=true)
 
 算法稳定性：
 
 &emsp;&emsp;冒泡排序就是把小的元素往前调或者把大的元素往后调。比较是相邻的两个元素比较，交换也发生在这两个元素之间。所以，如果两个元素相等，是不会再交换的；如果两个相等的元素没有相邻，那么即使通过前面的两两交换把两个相邻起来，这时候也不会交换，所以相同元素的前后顺序并没有改变，所以冒泡排序是一种稳定排序算法。
+
+#### 3、动图演示：
+![image](https://github.com/SKY-JING/merlion/blob/master/doc/imgs/bubble/bubble7.png?raw=true)
