@@ -18,9 +18,7 @@
 #### 2、算法分析：
 时间复杂度：
 
-&emsp;&emsp;若文件的初始状态是正序的，一趟扫描即可完成排序。所需的关键字比较次数`C`和记录移动次数`M`均达到最小值：
-
-&emsp;&emsp;$C_min = n - 1$
+&emsp;&emsp;若文件的初始状态是正序的，一趟扫描即可完成排序。所需的关键字比较次数`C`和记录移动次数`M`均达到最小值：![C]('../imgs/bubble/bubbleSort1.png'),![C]('../imgs/bubble/bubbleSort2.png')
 
 &emsp;&emsp;所以，冒泡排序最好的时间复杂度为
 
