@@ -17,19 +17,7 @@
 #### 2、算法分析：
 时间复杂度：
 
-&emsp;&emsp;若文件的初始状态是正序的，一趟扫描即可完成排序。所需的关键字比较次数`C`和记录移动次数`M`均达到最小值：<img src='data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAPBAMAAACIDPXGAAAAMFBMVEX///90dHSenp5QUFAEBATM
-zMyKioq2trbm5uZAQEAWFhYMDAwiIiIwMDBiYmIAAABGR0leAAAAAXRSTlMAQObYZgAAAPBJREFU
-KBVjYGB4e3plAwNBUAtUUZXAEB1AUGXweQYGdlcGBmaCKhkY9BkYuCcQoQ6oBKhUvwGn0jcMTxAu
-AyqdgqlyiYuLywEGBr47ffkoSk8hlB5DMMGsyQYlCBGgqbcRPA0EE8xaxSDDwBC1atWq5UAuUKk9
-mjwS9xvDPQQPqLRegIGhSOvtNpmtTMvYNl4B8higbmX/wOCOopT5GwObB5eBfsFlhmMM+5g+ICT5
-DnB8VIBz8xsYGHT2nAzgUehneAlUupwBSSmnAPsmuEq+9RchbJBSSXSlcGUoDBKUqtywF7hd5Nv0
-k+kjihEoHAC6aj96lH/ZMAAAAABJRU5ErkJggg=='/>, <img src='data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAPBAMAAACivARpAAAAMFBMVEX///8EBAR0dHRAQEDm5uYw
-MDCKiooWFhZQUFDMzMxiYmIMDAy2trYiIiKenp4AAABqlBxoAAAAAXRSTlMAQObYZgAAAQJJREFU
-GBljYHj7j4GB4fwuIIEJWILLgIKcP4BE/QFMaaAI+wP/CQwMbN+BON4Bq4qHDLwGDAzM/QwMvPlY
-FTCYMnAJAE3yf8CwTBu7imIGtg8MDL7sDSwX2tFUFAoKCl5gYNjBwPaFgSGLuYD5gClUxTVUlTsY
-+IBm2LB9mMpwAyrzBFUFxJYCln+RDNiDgyGWgauAgaWAYa8BgxjD86XbdHfylbFtClQAmgN1RyID
-awMDkwGDoQPLPwb2hvcHIhiuMewC2QwDjAmODgwLpRiyGHK/P+B94M+wGKiihgFJBeflGJhiYKAB
-VSijq0BIA1mEVTwM6VeIPifq95nvE4pOBgA6P0eDp5RU5AAAAABJRU5ErkJggg=='/>
+&emsp;&emsp;若文件的初始状态是正序的，一趟扫描即可完成排序。所需的关键字比较次数`C`和记录移动次数`M`均达到最小值：![image](https://github.com/SKY-JING/merlion/tree/master/doc/imgs/bubble/bubble1.png), ![image](https://github.com/SKY-JING/merlion/tree/master/doc/imgs/bubble/bubble1.png)
 
 &emsp;&emsp;所以，冒泡排序最好的时间复杂度为
 
