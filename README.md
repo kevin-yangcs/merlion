@@ -24,3 +24,6 @@ fnc.bubbleSort([4, 2, 1, 0.5, -3, 13]);
 |---- [计数排序](./doc/sort/countingSort.md)（countingSort）<br>
 |---- [桶排序](./doc/sort/bucketSort.md)（bucketSort）<br>
 |---- [基数排序](./doc/sort/radixSort.md)（radixSort）<br>
+|-- 加解密<br>
+|---- base64加密（base64.encode）<br>
+|---- base64解密（base64.decode）<br>

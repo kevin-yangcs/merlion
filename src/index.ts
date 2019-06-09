@@ -9,6 +9,8 @@ import { countingSort } from './countingSort'; // 计数排序
 import { bucketSort } from './bucketSort'; // 桶排序
 import { radixSort } from './radixSort'; // 基数排序
 
+import { base64 } from './base64'; // base64加解密
+
 export {
   bubbleSort,
   selectionSort,
@@ -19,5 +21,6 @@ export {
   heapSort,
   countingSort,
   bucketSort,
-  radixSort
+  radixSort,
+  base64
 };
